@@ -1,0 +1,25 @@
+.singleOption {
+    width: 76%;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 0 0 2px black;
+    border-width: 4px;
+  }
+  
+  @media (max-width: 614px) {
+    .singleOption {
+      width: 100%;
+    }
+  }
+
+  .select {
+    background-color: rgb(7, 207, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+  }
+  
+  .wrong {
+    background-color: rgb(233, 0, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+  }
